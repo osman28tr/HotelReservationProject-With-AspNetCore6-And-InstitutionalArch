@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HotelReservation.EntityLayer.Concrete
 {
-    public class Subscribe
+    public class Subscribe:BaseEntity
     {
         public string Email { get; set; }
     }

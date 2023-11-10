@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace HotelReservation.EntityLayer.Concrete
 {
-    public class Services
+    public class BaseEntity
     {
-        public string Icon { get; set; }
-        public string Title { get; set; }
-        public string Description { get; set; }
+        public int Id { get; set; }
     }
 }

@@ -20,4 +20,11 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\HotelReservation.BusinessLayer\HotelReservation.BusinessLayer.csproj" />
+    <ProjectReference Include="..\HotelReservation.DataAccessLayer\HotelReservation.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\HotelReservation.DtoLayer\HotelReservation.DtoLayer.csproj" />
+    <ProjectReference Include="..\HotelReservation.EntityLayer\HotelReservation.EntityLayer.csproj" />
+  </ItemGroup>
+
 </Project>

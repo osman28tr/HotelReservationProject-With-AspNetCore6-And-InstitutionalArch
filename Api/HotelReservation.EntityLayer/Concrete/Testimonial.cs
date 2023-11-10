@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HotelReservation.EntityLayer.Concrete
 {
-    public class Testimonial
+    public class Testimonial:BaseEntity
     {
         public string Description { get; set; }
         public string Name { get; set; }
